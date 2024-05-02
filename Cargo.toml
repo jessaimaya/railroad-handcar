@@ -1,0 +1,10 @@
+[workspace]
+members = [ "foo","hello"]
+
+[package]
+name = "railroad-handcar"
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+macroquad = "0.4.5"

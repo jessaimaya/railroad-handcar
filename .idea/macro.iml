@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/color-palette/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/starfield/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/utilities/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

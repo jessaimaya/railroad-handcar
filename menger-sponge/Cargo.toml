@@ -1,0 +1,9 @@
+[package]
+name = "menger-sponge"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad = { workspace = true }
+utilities = { workspace = true }
+color-palette = { workspace = true }

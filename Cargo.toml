@@ -1,5 +1,5 @@
 [workspace]
-members = [ "color-palette", "starfield"]
+members = ["color-palette", "starfield", "utilities"]
 
 [package]
 name = "railroad-handcar"
@@ -8,7 +8,9 @@ edition = "2021"
 
 [dependencies]
 
+
 [workspace.dependencies]
-macroquad = "0.4.5"
 rand = "0.8.5"
-color-palette = { path = "./color-palette"}
+macroquad = "0.4.5"
+color-palette = { path = "./color-palette" }
+utilities = { path = "./utilities" }

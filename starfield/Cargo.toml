@@ -5,3 +5,5 @@ edition = "2021"
 
 [dependencies]
 macroquad = { workspace = true }
+utilities = { workspace = true }
+color-palette = { workspace = true }

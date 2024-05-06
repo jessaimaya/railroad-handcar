@@ -29,6 +29,7 @@ async fn main() {
     set_camera(&camera);
     loop {
         clear_background(Color::new(r, g, b, 1.0));
+
         stars.stars.iter_mut().for_each(|star| {
             let speed = utilities::map_num(input::mouse_position_local().x, -1.0, 1.0, 0.001, 0.1);
             star.update(speed);

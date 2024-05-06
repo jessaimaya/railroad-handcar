@@ -1,5 +1,5 @@
 [workspace]
-members = ["color-palette", "starfield", "utilities"]
+members = ["color-palette", "menger-sponge", "starfield", "utilities"]
 
 [package]
 name = "railroad-handcar"

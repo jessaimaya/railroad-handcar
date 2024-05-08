@@ -1,5 +1,4 @@
-use rand::Rng;
-
+use macroquad::rand::*;
 pub const BLACK: (f32, f32, f32) = (0.0, 0.07, 0.09);
 pub const DARK_BLUE: (f32, f32, f32) = (0.0, 0.37, 0.45);
 pub const BLUE: (f32, f32, f32) = (0.039, 0.576, 0.588);
@@ -25,7 +24,6 @@ pub const PALETTE: [(f32, f32, f32); 10] = [
 ];
 
 pub fn random_color(avoid: Option<Vec<(f32, f32, f32)>>) -> (f32, f32, f32) {
-    let mut rng = rand::thread_rng();
     if avoid.is_some() {
         let avoid_colors = avoid.clone().unwrap();
         let filtered: Vec<(f32, f32, f32)> = PALETTE
@@ -36,11 +34,11 @@ pub fn random_color(avoid: Option<Vec<(f32, f32, f32)>>) -> (f32, f32, f32) {
         return if filtered.is_empty() {
             (0., 0., 0.)
         } else {
-            let ind = rng.gen_range(0..filtered.len());
+            let ind = gen_range(0, filtered.len());
             filtered[ind]
         };
     }
-    let ind = rng.gen_range(0..PALETTE.len());
+    let ind = gen_range(0, PALETTE.len());
     PALETTE[ind]
 }
 

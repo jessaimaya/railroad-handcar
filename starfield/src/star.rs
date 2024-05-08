@@ -22,7 +22,7 @@ impl Star {
             y: rand::gen_range(-1.0, 1.0),
             z,
             pz: z,
-            col: color_palette::random_color(),
+            col: color_palette::random_color(None),
         }
     }
     pub(crate) fn update(&mut self, speed: f32) {

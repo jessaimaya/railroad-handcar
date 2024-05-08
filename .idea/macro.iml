@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/utilities/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rayllo/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/menger-sponge/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/snake/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
